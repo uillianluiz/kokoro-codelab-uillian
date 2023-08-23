@@ -20,3 +20,5 @@ fi
 java Hello
 
 touch artifact.jar
+
+ls -lthR ${KOKORO_ARTIFACTS_DIR}
