@@ -20,3 +20,6 @@ fi
 java Hello
 
 touch artifact.jar
+
+ls -lthR ${KOKORO_ARTIFACTS_DIR}
+cat ${KOKORO_ARTIFACTS_DIR}/github/presubmit_request.txt || true
